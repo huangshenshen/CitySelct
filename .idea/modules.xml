@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CityPicker-master.iml" filepath="$PROJECT_DIR$/CityPicker-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SelectCity-master-master.iml" filepath="$PROJECT_DIR$/SelectCity-master-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citypicker/citypicker.iml" filepath="$PROJECT_DIR$/citypicker/citypicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citypicker/citypicker.iml" filepath="$PROJECT_DIR$/citypicker/citypicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citysel/citysel.iml" filepath="$PROJECT_DIR$/citysel/citysel.iml" />
+    </modules>
+  </component>
+</project>

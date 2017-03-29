@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tv_locate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="正在定位"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/tv_current_locate_city"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/text_selector"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="false"
+        android:text="北京"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:layout_marginRight="40dp"
+        android:textSize="16sp" />
+    
+    <ProgressBar
+        android:id="@+id/pb_loacte"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="64dip"
+        android:layout_marginTop="13dp" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:background="#E2E2E2" />
+
+</RelativeLayout>
